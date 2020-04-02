@@ -30,7 +30,7 @@ export const footerCSS = ({ isModal, interactionIsIdle }: State) => ({
   fontSize: 13,
   justifyContent: 'space-between',
   left: isModal ? 0 : null,
-  opacity: interactionIsIdle && isModal ? 0 : 1,
+  opacity: 1,
   padding: isModal ? '30px 20px 20px' : '10px 0',
   position: isModal ? 'absolute' : null,
   right: isModal ? 0 : null,
